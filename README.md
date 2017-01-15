@@ -11,9 +11,9 @@
 ## Usage
 首先，你需要在对应的页面按F12打开Console。
 
-对于**专题活动的模块一**（指的是需要签名的部分），把`accounts`和`goNext`复制进去，并执行`goNext(0);`即可。
+对于**专题活动**，把`accounts`和`goNext`复制进去，并执行`goNext(0);`即可。
 
-对于**专题活动的模块二**（指的是需要答题的部分），把`accounts`和`answerNext`复制进去，并执行`answerNext(0);`即可。
+那个问卷只是卖萌用的，只要调用`SpecialSign`，直接就标记成已完成啦w
 
 对于**技能训练作业**，把`accounts`和`tasks`以及`doNext`复制进去，并执行`doNext(0);`即可。
 
