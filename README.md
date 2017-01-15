@@ -13,7 +13,7 @@
 
 对于**专题活动**，把`accounts`和`goNext`复制进去，并执行`goNext(0);`即可。
 
-那个问卷只是卖萌用的，只要调用`SpecialSign`，直接就标记成已完成啦w
+（那个问卷只是卖萌用的，只要调用`SpecialSign`，直接就标记成已完成啦w）
 
 对于**技能训练作业**，把`accounts`和`tasks`以及`doNext`复制进去，并执行`doNext(0);`即可。
 
