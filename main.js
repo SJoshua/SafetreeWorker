@@ -2,9 +2,9 @@
  * Au: SJoshua
  */
 
-var accounts = ["yeyongzhao", "chenguqi1003500", "cengying1513", "chenshaoxin1803", "chenqigong6731", "chenshaolei3045", "huxiangyu1033", "linrongyu4001", "chenxiaowei2006189", "shiyichi", "zhangyiheng5003189", "chenshuyi2534", "lizhuoqin2031", "hubocheng1009", "wulingqi4000", "xiaoluying2006", "chenjingyuan1003", "linhuilin2517", "yanglintao1000", "caixinyi2055", "lvshufang2521", "qiuzhihong3065", "lijun1039788", "lvbingyan1522", "wujiaqi2510", "zhuhesen1502", "linyicheng3507", "zhenghongteng", "huangyujian5010", "chenxin2126", "huji1557", "chenjingyang1025", "juxian4006", "hzy82625", "linming1008880", "qiutingting2634", "huangyu3002980", "chenyajing2049", "chenshuyu1006", "xieguqi3548", "dingzhikun1003", "caijiaying4007", "zhengxufan7000", "xieyinchun1560", "xiaojianyu5525", "jiweitao1032", "lvjingwen2524", "chenjianfeng1543", "lvboli1520", "huangshiyi2553", "yangkai5528546", "linweiteng6230", "chenhejun5939", "chenjiaxuan3965", "chenrui5492", "wangyuhao6848", "songjunlin3124", "huangcaiqiong8769", "xushijia2662", "zengjiaxin3689"];
+var accounts = ["account01", "account02", "account03"];
 
-/* function work(current, type)
+/* function work(type, next)
  * Au: SJoshua
  */
 function work(type, next) {
@@ -24,7 +24,7 @@ function work(type, next) {
 	}
 }
 
-/* function goNext(current, type)
+/* function goNext(current)
  * Au: SJoshua
  */
 function goNext(current = 0) {
@@ -47,7 +47,7 @@ goNext();
 
 /******************************************************************************/
 
-var accounts = ["yeyongzhao", "chenguqi1003500", "cengying1513", "chenshaoxin1803", "chenqigong6731", "chenshaolei3045", "huxiangyu1033", "linrongyu4001", "chenxiaowei2006189", "shiyichi", "zhangyiheng5003189", "chenshuyi2534", "lizhuoqin2031", "hubocheng1009", "wulingqi4000", "xiaoluying2006", "chenjingyuan1003", "linhuilin2517", "yanglintao1000", "caixinyi2055", "lvshufang2521", "qiuzhihong3065", "lijun1039788", "lvbingyan1522", "wujiaqi2510", "zhuhesen1502", "linyicheng3507", "zhenghongteng", "huangyujian5010", "chenxin2126", "huji1557", "chenjingyang1025", "juxian4006", "hzy82625", "linming1008880", "qiutingting2634", "huangyu3002980", "chenyajing2049", "chenshuyu1006", "xieguqi3548", "dingzhikun1003", "caijiaying4007", "zhengxufan7000", "xieyinchun1560", "xiaojianyu5525", "jiweitao1032", "lvjingwen2524", "chenjianfeng1543", "lvboli1520", "huangshiyi2553", "yangkai5528546", "linweiteng6230", "chenhejun5939", "chenjiaxuan3965", "chenrui5492", "wangyuhao6848", "songjunlin3124", "huangcaiqiong8769", "xushijia2662", "zengjiaxin3689"];
+var accounts = ["account01", "account02", "account03"];
 
 var tasks = [
 	["11927", "789", "1346", "244408", "809", "烟酒赌毒，要远离"],
@@ -85,7 +85,7 @@ function work(id, next) {
 	}
 }
 
-/* function goNext(current, id)
+/* function goNext(current)
  * Au: SJoshua
  */
 function goNext(current = 0) {
