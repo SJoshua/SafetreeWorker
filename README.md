@@ -15,7 +15,7 @@
 
 对于**专题活动的模块二**（指的是需要答题的部分），把`accounts`和`answerNext`复制进去，并执行`answerNext(0);`即可。
 
-对于**技能训练作业**，把`accounts`和`tasks`复制进去，并执行`doNext(0);`即可。
+对于**技能训练作业**，把`accounts`和`tasks`以及`doNext`复制进去，并执行`doNext(0);`即可。
 
 ## Note
 我是边学JavaScript边写这个脚本的（好像拿起来就直接瞎用了），所以可能出现各种奇怪的错误。
